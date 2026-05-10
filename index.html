@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Regex, Regexes | Delta+</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://cdn.easydonate.ru/images/logos/361ba4ff6af620fd2a29eb54a0d7a8113058c2baef409f5e200a4ca1e6c7504d.png">
+</head>
+<body>
+<div class="container">
+    <center>
+    <h1>Regex,Regexes | Space Times | Delta+</h1>
+    </center>
+
+
+    <div id="admin-panel" style="display:none;">
+        <button onclick="newCategory()" class="admin-btn">➕ Новая категория</button>
+        <button onclick="saveToFile()" class="admin-btn" style="background: #2a5b3a;">💾 Сохранить в файл</button>
+        <button onclick="loadFromFile()" class="admin-btn" style="background: #5b4a2a;">📂 Загрузить из файла</button>
+        <button onclick="resetToDefault()" class="admin-btn" style="background: #5b2a2a;">🔄 Сброс к дефолту</button>
+    </div>
+
+    <div id="categories"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
